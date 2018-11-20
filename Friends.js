@@ -8,7 +8,7 @@ handlers.RequestFriend = function(args, context){
 	// 5. Push notifcation to requestee
 
 	var requesterPlayFabId = currentPlayerId; // D901A83E7F6E0426
-	var requesteePlayFabId = "6EE1466F0A7DD431":
+	var requesteePlayFabId = "6EE1466F0A7DD431";
 	
 	// 1 & 3
 	AddFriendWithTag(requesterPlayFabId, requesteePlayFabId, "Awaiting");
