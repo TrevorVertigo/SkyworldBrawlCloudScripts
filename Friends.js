@@ -29,7 +29,7 @@ function AddFriendWithTag(requesterPlayFabId, requesteePlayFabId, tag) {
 		PlayFabId: requesterPlayFabId,
 		FriendPlayFabId: requesteePlayFabId
     };
-	var addFriendRequestResult = server.AddFriendRequest(addFriendRequest);
+	var addFriendRequestResult = server.AddFriend(addFriendRequest);
 	// Check for error
 	
 	// Set friend tag
