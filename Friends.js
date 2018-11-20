@@ -9,7 +9,7 @@ handlers.RequestFriend = function(args, context){
 
 	var requesterPlayFabId = currentPlayerId; // D901A83E7F6E0426
 	var requesteePlayFabId = "6EE1466F0A7DD431";
-	
+
 	// 1 & 3
 	AddFriendWithTag(requesterPlayFabId, requesteePlayFabId, "Awaiting");
 	// 2 & 4
@@ -23,7 +23,7 @@ handlers.RemoveFriend = function(args, context) {
 	//var removeFriendResult = server.RemoveFriend(
 }
 
-function AddFriendWithTag(string requesterPlayFabId, string requesteePlayFabId, string tag) {
+function AddFriendWithTag(requesterPlayFabId, requesteePlayFabId, tag) {
 	// Add friend
 	var addFriendRequest = {
 		PlayFabId: requesterPlayFabId,
